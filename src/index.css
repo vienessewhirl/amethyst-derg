@@ -1,6 +1,14 @@
 /* Tailwind CSS Import */
 @import "tailwindcss";
 
+/* Custom Fonts */
+@layer base {
+  @font-face {
+    font-family: "TikTok Font";
+    src: url("/font_tiktok.otf") format("opentype");
+  }
+}
+
 /* Custom Theme Colors */
 @theme {
   --color-amethystlight: #d7cff5;
