@@ -1,1 +1,33 @@
+/* Tailwind CSS Import */
 @import "tailwindcss";
+
+/* Custom Theme Colors */
+@theme {
+  --color-amethyst: #2c1e52;
+}
+
+/* Custom Animations */
+@layer utilities {
+  .animate-in {
+    animation-fill-mode: both;
+  }
+
+  .slide-in-from-top {
+    animation-name: slide-in-from-top;
+  }
+
+  .duration-300 {
+    animation-duration: 300ms;
+  }
+}
+
+@keyframes slide-in-from-top {
+  0% {
+    opacity: 0;
+    transform: translateY(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
