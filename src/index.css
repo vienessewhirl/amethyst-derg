@@ -3,7 +3,8 @@
 
 /* Custom Theme Colors */
 @theme {
-  --color-amethyst: #2c1e52;
+  --color-amethystlight: #d7cff5;
+  --color-amthystdark: #9389bc;
 }
 
 /* Custom Animations */
