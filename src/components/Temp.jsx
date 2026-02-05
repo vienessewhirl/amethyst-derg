@@ -50,9 +50,9 @@ export default function Temp() {
       aria-labelledby="page-title"
     >
       {/* Logo and AMETHYST text */}
-      <div className="flex flex-col md:flex-row items-center justify-center relative z-20 px-4 pt-[clamp(1rem,2vw,2rem)] md:pt-0">
+      <div className="flex flex-row items-center justify-center relative z-20 px-4 pt-[clamp(1rem,2vw,2rem)] md:pt-0">
         <svg
-          className="text-amethystdark text-[clamp(2.2rem,6vw,6rem)] tracking-[0.12em] sm:tracking-[0.24em] text-center inline-block translate-y-[clamp(0.8rem,1.6vw,1.5rem)]"
+          className="text-amethystdark text-[clamp(2.2rem,6vw,6rem)] tracking-[0.12em] sm:tracking-[0.24em] text-center inline-block translate-y-[clamp(0.8rem,1.6vw,1.5rem)] rotate-[-2.25deg] sm:rotate-0"
           style={{
             height: "1em",
             width: "auto",
@@ -87,19 +87,19 @@ export default function Temp() {
         <img
           src="/logo_base.png"
           alt="Amethyst Derg holding a sewing needle"
-          className="w-[clamp(150px,24vw,420px)] h-auto p-2 translate-x-[clamp(0.2rem,0.8vw,0.6rem)]"
+          className="w-[clamp(150px,24vw,420px)] h-auto p-1 sm:p-2 translate-x-0 sm:translate-x-[clamp(0.2rem,0.8vw,0.6rem)]"
         ></img>
       </div>
       {/* Circle background and DERG text*/}
       <div
-        className="absolute left-1/2 -translate-x-1/2 aspect-square rounded-full bg-amethystdark border-white z-10 text-center top-[clamp(7rem,14vh,12rem)] sm:top-[clamp(12rem,25vh,28rem)]"
+        className="absolute left-1/2 -translate-x-1/2 aspect-square rounded-full bg-amethystdark border-white z-10 text-center top-[clamp(5.35rem,11.8vh,9.6rem)] sm:top-[clamp(12rem,25vh,28rem)]"
         style={{
           width: "clamp(900px,200vw,5760px)",
           borderWidth: "clamp(8px,1.8vw,20px)",
         }}
       >
         <svg
-          className="text-amethystlight text-[clamp(2.2rem,6vw,6rem)] tracking-[0.12em] sm:tracking-[0.24em] inline-block -translate-x-15 -translate-y-1"
+          className="text-amethystlight text-[clamp(2.2rem,6vw,6rem)] tracking-[0.12em] sm:tracking-[0.24em] inline-block -translate-x-9 sm:-translate-x-15 translate-y-[0.15rem] sm:-translate-y-0.5"
           style={{
             height: "1em",
             width: "auto",
@@ -138,7 +138,7 @@ export default function Temp() {
         >
           WEBSITE UNDER CONSTRUCTION
         </h1>
-        <h2 className="mt-2 text-[clamp(1rem,2.2vw,1.5rem)] tracking-widest">
+        <h2 className="mt-2 px-4 sm:px-0 text-[clamp(1rem,2.2vw,1.5rem)] tracking-widest">
           <span className="font-bold">...</span>but you can find me at the links
           below
           <span className="font-bold">!</span> Let’s chat
