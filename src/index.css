@@ -7,6 +7,11 @@
     font-family: "TikTok Font";
     src: url("/font_tiktok.otf") format("opentype");
   }
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
 }
 
 /* Custom Theme Colors */
