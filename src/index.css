@@ -14,6 +14,7 @@
   body {
     font-family: "TikTok Font", sans-serif;
     overflow-x: hidden;
+    overflow-y: hidden;
     --color-amethystlight: #d7cff5;
     --color-amethystdark: #9389bc;
   }
@@ -99,7 +100,7 @@
 @layer components {
   /* Page shell */
   .temp-page {
-    @apply min-h-screen overflow-x-visible overflow-y-hidden relative;
+    @apply min-h-screen overflow-x-hidden overflow-y-hidden relative;
     background-color: var(--color-amethystlight);
   }
 
