@@ -21,7 +21,7 @@
 
 /* Custom Animations */
 @layer utilities {
-  .animate-in {
+  /* .animate-in {
     animation-fill-mode: both;
   }
 
@@ -31,10 +31,10 @@
 
   .duration-300 {
     animation-duration: 300ms;
-  }
+  } */
 
   .amethyst-title-mobile {
-    transform: translateY(clamp(0.8rem, 1.5vw, 1.2rem)) rotate(-2.25deg)
+    transform: translateY(clamp(0.2rem, 1.5vw, 1.2rem)) rotate(-2.25deg)
       scaleX(0.97);
   }
 
@@ -351,7 +351,7 @@
     }
   }
 }
-
+/* 
 @keyframes slide-in-from-top {
   0% {
     opacity: 0;
@@ -370,4 +370,4 @@
     animation-duration: 1ms !important;
     animation-iteration-count: 1 !important;
   }
-}
+} */
