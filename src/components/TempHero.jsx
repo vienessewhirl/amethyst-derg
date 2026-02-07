@@ -11,6 +11,7 @@ export default function TempHero() {
             width: "auto",
             fontFamily: "TikTok Font",
             overflow: "visible",
+            transform: "translateY(0.3rem) rotate(-3deg)",
           }}
           viewBox="-60 -40 1520 280"
           role="img"
