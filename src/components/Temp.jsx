@@ -99,7 +99,8 @@ export default function Temp() {
         {/* Footer */}
         <div className="temp-footer">
           <p className="temp-footer-text">
-            © 2026 Amethyst Derg. All rights reserved.
+            © <span className="font-bold">2026</span> Amethyst Derg. All rights
+            reserved.
           </p>
         </div>
         <div className="temp-footer">
