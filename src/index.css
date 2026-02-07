@@ -6,6 +6,8 @@
   @font-face {
     font-family: "TikTok Font";
     src: url("font_tiktok.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
   }
 
   html,
