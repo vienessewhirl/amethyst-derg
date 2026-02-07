@@ -12,6 +12,7 @@
 
   html,
   body {
+    font-family: "TikTok Font", sans-serif;
     overflow-x: hidden;
     --color-amethystlight: #d7cff5;
     --color-amethystdark: #9389bc;
@@ -124,11 +125,13 @@
   .amethyst-title-mobile {
     @apply shrink-0 text-[clamp(2.2rem,6vw,6rem)] tracking-[0.18em] text-center inline-block;
     color: var(--color-amethystdark);
+    font-family: "TikTok Font", sans-serif;
   }
 
   .amethyst-title-desktop-only {
     @apply shrink-0 text-[clamp(2.2rem,6vw,6rem)] tracking-[0.16em] text-center hidden;
     color: var(--color-amethystdark);
+    font-family: "TikTok Font", sans-serif;
   }
 
   .temp-logo {
@@ -145,6 +148,7 @@
   .derg-title {
     @apply text-[clamp(2.2rem,6vw,6rem)] tracking-[0.18em] inline-block -translate-x-6 translate-y-[0.05rem];
     color: var(--color-amethystlight);
+    font-family: "TikTok Font", sans-serif;
   }
 
   /* Content stack */
